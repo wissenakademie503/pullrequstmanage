@@ -59,6 +59,9 @@ namespace UrolojiApp
         private void FrmAnaSayfa_Load(object sender, EventArgs e)
         {
             MessageBox.Show("lenovo11commit");
+            MessageBox.Show("FUCKGİTHUB");
+
+            
         }
     }
 }
