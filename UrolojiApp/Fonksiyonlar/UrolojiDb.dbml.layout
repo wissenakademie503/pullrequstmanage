@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UrolojiDb">
+  <DataContextMoniker Name="/UrolojiDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d84db785-6b69-4be9-9843-bf7281b3fddb" isExpanded="false" absoluteBounds="3.5, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bTakip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58049400-48f9-42d3-8068-3e6d2bc944c3" absoluteBounds="3.515, 2.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dcf836e2-df57-4b04-ad63-d63246b64482" isExpanded="false" absoluteBounds="3.5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bDemografik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="115e8776-30e3-49ec-8deb-9382706f7222" absoluteBounds="3.515, 4.0850000000000009, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c28c4732-a869-43df-a1d6-a946f26df2ab" isExpanded="false" absoluteBounds="1, 3.75, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bHastaBilgileri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cda9ebe3-9dc4-43b7-8627-09f619a06870" absoluteBounds="1.0150000000000001, 4.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7730f4d-805d-464b-ab88-a962bd165c1b" isExpanded="false" absoluteBounds="3.5, 3, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bOperatif" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed5f5175-1b90-4ab3-8f75-8d2fee045c95" absoluteBounds="3.515, 3.4600000000000009, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4677e29-2d29-4d8a-9dcd-0ea79546b6dd" isExpanded="false" absoluteBounds="3.5, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bPatoloji" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49de90b8-ec2e-42ae-a79f-ce5765769521" absoluteBounds="3.515, 2.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="336fce0d-da6f-486f-b54e-5589a8357bb8" isExpanded="false" absoluteBounds="3.5, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bPosOperatif" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9591d2ae-b70e-467c-96db-0c9d8b40bc4b" absoluteBounds="3.515, 4.7100000000000009, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.26562625 : 3.75); (2.26562625 : 2.6); (3.5 : 2.6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/UrolojiDbDataContext/bHastaBilgileri/bHastaBilgileri_bTakip" />
+      <nodes>
+        <classShapeMoniker Id="c28c4732-a869-43df-a1d6-a946f26df2ab" />
+        <classShapeMoniker Id="d84db785-6b69-4be9-9843-bf7281b3fddb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 3.9125); (3.5 : 3.9125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/UrolojiDbDataContext/bHastaBilgileri/bHastaBilgileri_bDemografik" />
+      <nodes>
+        <classShapeMoniker Id="c28c4732-a869-43df-a1d6-a946f26df2ab" />
+        <classShapeMoniker Id="dcf836e2-df57-4b04-ad63-d63246b64482" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 3.75); (3.5 : 3.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/UrolojiDbDataContext/bHastaBilgileri/bHastaBilgileri_bOperatif" />
+      <nodes>
+        <classShapeMoniker Id="c28c4732-a869-43df-a1d6-a946f26df2ab" />
+        <classShapeMoniker Id="f7730f4d-805d-464b-ab88-a962bd165c1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.601560625 : 3.75); (1.601560625 : 1.975); (3.5 : 1.975)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/UrolojiDbDataContext/bHastaBilgileri/bHastaBilgileri_bPatoloji" />
+      <nodes>
+        <classShapeMoniker Id="c28c4732-a869-43df-a1d6-a946f26df2ab" />
+        <classShapeMoniker Id="a4677e29-2d29-4d8a-9dcd-0ea79546b6dd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 4.2); (3.5 : 4.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/UrolojiDbDataContext/bHastaBilgileri/bHastaBilgileri_bPosOperatif" />
+      <nodes>
+        <classShapeMoniker Id="c28c4732-a869-43df-a1d6-a946f26df2ab" />
+        <classShapeMoniker Id="336fce0d-da6f-486f-b54e-5589a8357bb8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fd73f132-2819-4ada-a821-9ef1cf456906" absoluteBounds="1, 4.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/UrolojiDbDataContext/bOpTuru" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7907a056-63d5-469e-96d2-c497cc2c9c0b" absoluteBounds="1.0150000000000001, 5.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
